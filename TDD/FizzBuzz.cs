@@ -16,6 +16,11 @@ public class FizzBuzz
             result = "Buzz";
         }
 
+        if (x % 3 == 0 && x % 5 == 0)
+        {
+            result = "FizzBuzz";
+        }
+
         return result;
     }
 }
