@@ -4,6 +4,9 @@ public class FizzBuzz
 {
     public static dynamic WriteNumber()
     {
-        throw new NotImplementedException();
+        var random = new Random();
+        dynamic result = random.Next(0, 100);
+
+        return result;
     }
 }
