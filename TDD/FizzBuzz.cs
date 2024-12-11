@@ -11,6 +11,11 @@ public class FizzBuzz
             result = "Fizz";
         }
 
+        if (x % 5 == 0)
+        {
+            result = "Buzz";
+        }
+
         return result;
     }
 }

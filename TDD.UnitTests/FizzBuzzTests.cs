@@ -11,7 +11,7 @@ public class FizzBuzzTests
     public void WriteNumber_ResultInRangeOfOneToOneHundred()
     {
         // Arrange
-        var number = 10;
+        var number = 32;
 
         // Act
         dynamic result = FizzBuzz.WriteNumber(number);
@@ -29,7 +29,7 @@ public class FizzBuzzTests
     public void WriteNumber_ResultIsFizzWhenDevisibleByThree()
     {
         // Arrange
-        var number = 30;
+        var number = 33;
 
         // Act
         dynamic result = FizzBuzz.WriteNumber(number);
