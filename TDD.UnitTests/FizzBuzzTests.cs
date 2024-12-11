@@ -42,4 +42,22 @@ public class FizzBuzzTests
             Assert.That(result, Is.EqualTo("Fizz"));
         });
     }
+
+    [Test]
+    public void WriteNumber_ResultIsBuzzIfNumberIsDevisibleByFive()
+    {
+        // Arrange
+        var number = 50;
+
+        // Act
+        dynamic result = FizzBuzz.WriteNumber(number);
+
+        // Assert
+        Assert.Multiple(() =>
+        {
+            Assert.That(result, Is.Not.Null);
+            Assert.That(result, Is.TypeOf<string>());
+            Assert.That(result, Is.EqualTo("Buzz"));
+        });
+    }
 }
