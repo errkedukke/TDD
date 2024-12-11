@@ -10,8 +10,11 @@ public class FizzBuzzTests
     [Test]
     public void WriteNumber_ResultInRangeOfOneToOneHundred()
     {
+        // Arrange
+        var number = 10;
+
         // Act
-        dynamic result = FizzBuzz.WriteNumber();
+        dynamic result = FizzBuzz.WriteNumber(number);
 
         // Assert
         Assert.Multiple(() =>

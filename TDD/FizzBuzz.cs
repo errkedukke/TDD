@@ -2,11 +2,9 @@
 
 public class FizzBuzz
 {
-    public static dynamic WriteNumber()
+    public static dynamic WriteNumber(int x)
     {
-        var random = new Random();
-        dynamic result = random.Next(0, 100);
-
-        return result;
+        dynamic result = x;
+        return x;
     }
 }
